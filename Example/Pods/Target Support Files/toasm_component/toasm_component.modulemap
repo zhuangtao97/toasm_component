@@ -1,0 +1,6 @@
+framework module toasm_component {
+  umbrella header "toasm_component-umbrella.h"
+
+  export *
+  module * { export * }
+}
