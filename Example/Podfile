@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'toasm_component_Example' do
+  pod 'toasm_component', :path => '../'
+
+  target 'toasm_component_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
